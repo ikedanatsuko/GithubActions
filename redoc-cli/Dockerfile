@@ -9,8 +9,6 @@ LABEL "maintainer"="ikedanatsuko <ikedanatsuko@team-lab.com>"
 
 RUN npm install -g redoc-cli
 
-ENV NPM_CONFIG_PREFIX=/home/node/.npm-global
-
 COPY "entrypoint.sh" "/entrypoint.sh"
 ENTRYPOINT ["/entrypoint.sh"]
 CMD ["help"]
