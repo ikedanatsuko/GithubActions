@@ -5,7 +5,7 @@ LABEL "com.github.actions.description"="Use redoc-cli"
 LABEL "com.github.actions.icon"="package"
 LABEL "com.github.actions.color"="purple"
 
-LABEL "maintainer"="ikedanatsuko <ikedanatsuko@team-lab.com>"
+LABEL "maintainer"="ikedanatsuko <natsu950821@gmail.com>"
 
 RUN npm install -g redoc-cli
 
