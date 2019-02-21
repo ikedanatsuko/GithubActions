@@ -9,7 +9,7 @@ LABEL "maintainer"="ikedanatsuko <ikedanatsuko@team-lab.com>"
 
 RUN npm install -g redoc-cli
 
-COPY entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
-ENTRYPOINT /entrypoint.sh
-CMD help
+COPY "entrypoint.sh" "/entrypoint.sh"
+RUN ["chmod","+x","/entrypoint.sh"]
+
+ENTRYPOINT ["/entrypoint.sh"]
