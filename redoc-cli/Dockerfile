@@ -1,4 +1,4 @@
-FROM node:10-alpine
+FROM node:12-alpine
 
 LABEL "com.github.actions.name"="GitHub Action for redoc-cli"
 LABEL "com.github.actions.description"="Use redoc-cli"
